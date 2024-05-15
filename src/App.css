@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* VARIABLES */
+:root {
+  --main-bg-color-dark: #141b41;
+  --main-text-color-dark: #ffffff;
+  --accent-color: #f5c518;
+  --secondary-color: #006d77;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-bg-color-dark);
+  color: var(--main-text-color-dark);
+  line-height: 1.6;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: var(--accent-color);
+}
+
+.countdown-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.countdown-box {
+  background-color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--main-text-color-dark);
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.legend {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.wish-message {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.birthdate {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin-top: 1rem;
+}
+
+.credits {
+  margin-top: 1.5rem;
+}
+
+.github-logo {
+  opacity: 0.7;
+  width: 2.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.github-logo:hover {
+  opacity: 1;
+}
+
+.form {
+  margin-top: 2rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form input,
+select,
+.btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+select {
+  background-color: var(--main-bg-color-dark);
+  color: var(--main-text-color-dark);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  appearance: none;
+  padding: 0.7rem 1rem;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--main-text-color-dark);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f5d84c;
+}
+
+a {
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.gen-link {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
