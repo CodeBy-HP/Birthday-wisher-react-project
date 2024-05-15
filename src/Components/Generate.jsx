@@ -7,7 +7,7 @@ const Generate = () => {
   const [month, setMonth] = useState(1);
   const [link, setLink] = useState('');
   const generateLink = () => {
-    const generatedLink = `https://bdwisher.netlify.app/birthday/${name}/${day}/${month}`;
+    const generatedLink = `https://bd-wisher.netlify.app/birthday/${name}/${day}/${month}`;
     console.log("Generated Link:", generatedLink); // Debug message
     setLink(generatedLink);
   };  
