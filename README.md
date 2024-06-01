@@ -7,6 +7,9 @@ Check out the Final Project at [https://bd-wisher.netlify.app/](https://bd-wishe
 
 This project, Birthday Wisher, is a React-based application designed to help users track and share birthday countdowns.
 
+![Screenshot (120)](https://github.com/CodeBy-HP/Birthday-wisher-react-project/assets/145273554/40f8370d-8463-41be-bcb3-0fe957d93ce8)
+
+
 ## Features
 
 - **Countdown Display:** View the countdown to your upcoming birthday.
